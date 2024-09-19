@@ -14,7 +14,7 @@ Welcome to **Red-store**, an e-commerce site built using HTML, CSS, and JavaScri
 - **Styling:** Bootstrap, Custom CSS
 
 ## Demo
-Check out the live demo [here](https://navodayanvinu.github.io/e-commerce-website/).
+Check out the live demo [here](https://rahulahirwara266.github.io/E-COMMERCE-WEBSITE/).
 
 ## Contact me
 Rahul Ahirwar - [rahulahirwara266@gmail.com](mailto:rahulahirwara266@gmail.com)
