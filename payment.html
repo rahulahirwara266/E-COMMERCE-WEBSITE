@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Red-store | E-commerce website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/logo.png" type="image/png">
+</head>
+
+<body>
+
+
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html"> <img src="images/logo.png" alt="" width="125px"> </a>
+            </div>
+            <nav>
+                <ul id="menuitems">
+                    <li> <a href="index.html">Home</a></li>
+                    <li><a class="active"  href="products.html">Products</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="signin.html">Account</a></li>
+                </ul>
+            </nav>
+            <a href="cart.html"><img src="images/cart.png" alt="" height="30px" width="30px"> </a>
+            <img src="images/menu.png" class="menu-icon" alt="" onclick="menutoggle()">
+        </div>
+
+    </div>  
+
+   <br>  <br> <br>
+
+    <section id="payment">
+        <h3>Provide Billing Information </h3>
+    <div class="info">
+        <div class="left">
+            <h4>Billing Address</h4>
+
+       <div class="name">  
+          <div class="first">
+            <label for="First">First name</label> <br>
+            <input type="text" id="first">  </div>
+        <div class="last">
+            <label for="First">Last name</label> <br>
+            <input type="text" id="sec"> </div>
+        </div>   
+
+        
+            <br>
+            <label> User-name</label> <br>
+            <input type="text">
+            <br> <br>
+            <label for="">E-mail</label> <br>
+            <input type="email">
+            <br> <br>
+            <label for="">Adress</label> <br>
+            <input type="text"><br>
+ <br>
+   <div class="add">
+    <div>
+
+        <label for="">City</label> <br>
+        <input type="text">
+    </div>
+    <div>
+        
+        <label for="">State</label> <br>
+        <input type="text">
+    </div>
+    <div> 
+
+        <label for="">Zip Code</label> <br>
+        <input type="number" min="111111" max="999999" maxlength="6">
+    </div>
+            
+   </div>
+
+            <div class="checkbox">
+         <span>   <input  type="checkbox" name="" id="bill1">
+             Shipping Address is same as Billing Address </span>  <br> 
+            <input type="checkbox" name="" id="bill2"> Save this Information for next Order
+        </div>
+ </div>
+
+
+
+
+        <div class="right">
+             
+        <h4>Select a Payment Option</h4>
+
+         <img src="images/pay.png" alt="">
+
+         <select name="payments" id="payment">
+            
+           <option value="Phone-pe">Select</option>
+           <option value="Phone-pe">Phone-pe</option>
+           <option value="G-pay">G-pay</option>
+           <option value="paytm">paytm</option>
+           <option value="Netbanking">Netbanking</option>
+           <option value="debit Cards">Cards</option>
+
+         </select>
+             
+         <button onclick="window.location.href='orderplaced.html'" >Pay Now</button>
+   <br>
+     <span>or</span>
+          <br>
+          <div class="radio">
+         <input  type="radio" name="" id=""> Pay on Delivery
+        </div>
+
+       <button onclick="window.location.reload()"> Continue</button> 
+        </div>
+
+    </div>
+    </section> 
+    <br> <br> <br>
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download our App</h3>
+                    <p>Download our App for Android and ios Mobile phones.</p>
+                    <div class="app-logo">
+                        <img src="images/play-store.png" alt="">
+                        <img src="images/app-store.png" alt="">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="images/logo.png" alt="">
+                    <p>Our purpose to make benfits for user </p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li><a href="#">Coupons</a> </li>
+                        <li><a href="#">Blog Post</a> </li>
+                        <li><a href="#">Return Policy</a> </li>
+                        <li><a href="#">Join Affiliate</a> </li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us </h3>
+                    <ul>
+                        <li><a href="https://www.facebook.com/" target="_blank">Facebook</a> </li>
+                        <li><a href="https://www.instagram.com/"
+                                target="_blank">Instagram</a> </li>
+                        <li><a href="https://twitter.com/" target="_blank"
+                                rel="noopener noreferrer">Twitter</a> </li>
+                        <li><a href="https://www.youtube.com/" target="_blank"
+                                rel="noopener noreferrer">YouTube</a> </li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright&#169 2024-Vinod Malviya,All right Reserved</p>
+        </div>
+    </div>
+
+    <script src="script.js" defer></script>
+</body>
+
+</html>

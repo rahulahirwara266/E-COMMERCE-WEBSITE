@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Red-store | E-commerce website</title>
+    <link rel="shortcut icon" href="images/logo.png" type="image/png">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e3e6f3;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .order-confirmation {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 11px 15px 13px 7px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .order-confirmation h1 {
+            color: #4CAF50;
+        }
+        .order-confirmation p {
+            font-size: 18px;
+            color: #333;
+        }
+        .order-confirmation button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin-top: 20px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .order-confirmation button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="order-confirmation">
+        <h1>Order Placed!</h1>
+        <p>Your order has been successfully placed.</p>
+        <p>Thank you for shopping with us!</p>
+        <button onclick="window.location.href='index.html'">Continue Shopping</button>
+    </div>
+</body>
+</html>
